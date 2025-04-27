@@ -3,217 +3,556 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wavio - Pure Water Delivery Service</title>
+    <title>Wavez - Pure Water Delivery Service</title>
+    <!-- AOS CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="parallax-section">
-        <nav>
-            <div class="logo">Wavio</div>
-            <ul class="nav-links">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Pages</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">+1 234 567 890</a></li>
-                <li><a href="#">Cart</a></li>
-            </ul>
-            <div class="hamburger">☰</div>
-        </nav>
-        <h1 class="animate" data-animation="fade-in">PURE WATER DELIVERY SERVICE</h1>
-        <p class="animate" data-animation="fade-in">We now deliver different types of bottled water. To drink the best water comes to us an order and take care safe and sound for you.</p>
-        <div class="cta-buttons">
-            <button class="animate" data-animation="fade-in">Order Now</button>
-            <button class="animate" data-animation="fade-in">Read More</button>
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Wav<span>ez</span></a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#products" class="nav-link">Products</a></li>
+                    <li class="nav-item"><a href="#delivery" class="nav-link">Delivery</a></li>
+                    <li class="nav-item"><a href="#technology" class="nav-link">Technology</a></li>
+                    <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="nav-right">
+                    <div class="phone">+1 (800) 123-4567</div>
+                    <a href="#" class="cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                    <a href="#" class="login-btn">Login</a>
+                </div>
+            </nav>
         </div>
-        <img src="https://placehold.co/400x300" alt="Glass of water" class="animate" data-animation="zoom-in">
     </header>
 
-    <section class="water-composition parallax-section">
-        <h2 class="animate" data-animation="fade-in">WATER COMPOSITION</h2>
-        <p class="animate" data-animation="fade-in">WHAT'S INSIDE</p>
-        <div class="columns">
-            <div class="column animate" data-animation="slide-in-left">
-                <img src="https://placehold.co/50x50" alt="Water drop">
-                <p>Calcium Ca+ 260 mg/L<br>Strong bones and teeth, important for muscles and nerve function.</p>
-            </div>
-            <div class="column animate" data-animation="fade-in">
-                <img src="https://placehold.co/200x200" alt="Water droplets">
-            </div>
-            <div class="column animate" data-animation="slide-in-right">
-                <img src="https://placehold.co/50x50" alt="Water drop">
-                <p>Magnesium Mg+2 42 mg/L<br>Healthy muscles, energy production.<br>Bicarbonate HCO3- 384 mg/L<br>Softens water, antioxidant action.</p>
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right">
+                    <h1>PURE WATER<br><span>DELIVERY SERVICE</span></h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu erat lacus, vel congue mauris. Fusce velit justo, faucibus eu sagittis ac, gravida quis tortor.</p>
+                    <a href="#" class="btn">Order Now</a>
+                    <a href="#" class="btn btn-outline">Learn More</a>
+                </div>
+                <div class="hero-image" data-aos="fade-left">
+                    <img src="/api/placeholder/400/400" alt="Pure water glass">
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="choose-your-water parallax-section">
-        <h2 class="animate" data-animation="fade-in">CHOOSE YOUR WATER</h2>
-        <p class="animate" data-animation="fade-in">BOTTLES WE DELIVER</p>
-        <div class="cards">
-            <div class="card animate" data-animation="slide-in-left">
-                <img src="https://placehold.co/200x150" alt="Three bottles">
-                <p>Three bottles of mineral water<br>$24.99</p>
-                <button>Add to Cart</button>
+    <section class="composition section" id="about">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>WATER <span>COMPOSITION</span></h2>
+                <p>Check out water</p>
             </div>
-            <div class="card animate" data-animation="fade-in">
-                <img src="https://placehold.co/200x150" alt="One big bottle">
-                <p>One big bottle of mineral water<br>$49.99</p>
-                <button>Add to Cart</button>
-            </div>
-            <div class="card animate" data-animation="slide-in-right">
-                <img src="https://placehold.co/200x150" alt="Small bottles">
-                <p>Small bottles of mineral water<br>$17.99</p>
-                <button>Add to Cart</button>
-            </div>
-        </div>
-        <div class="cta-buttons">
-            <button class="animate" data-animation="fade-in">All Products</button>
-        </div>
-    </section>
-
-    <section class="delivery-service parallax-section">
-        <h2 class="animate" data-animation="fade-in">DELIVERY SERVICE</h2>
-        <p class="animate" data-animation="fade-in">Our refreshing purified bottled water can now be delivered directly to your door with our water delivery services.</p>
-        <div class="columns">
-            <div class="column animate" data-animation="fade-in">
-                <p>FREE DELIVERY</p>
-            </div>
-            <div class="column animate" data-animation="fade-in">
-                <p>17 DAYS A WEEK</p>
-            </div>
-            <div class="column animate" data-animation="fade-in">
-                <p>8:00 - 20:00</p>
-            </div>
-        </div>
-        <img src="https://placehold.co/300x200" alt="Delivery person" class="animate" data-animation="zoom-in">
-        <div class="cta-buttons">
-            <button class="animate" data-animation="fade-in">Order Now</button>
-            <button class="animate" data-animation="fade-in">Read More</button>
-        </div>
-    </section>
-
-    <section class="our-story parallax-section">
-        <h2 class="animate" data-animation="fade-in">OUR STORY</h2>
-        <p class="animate" data-animation="fade-in">Our company was founded in 2000. WaterBased Bottle is great for drinking, cooling, and even for children. The product is certified in 50 countries.</p>
-        <div class="columns">
-            <div class="column animate" data-animation="fade-in">
-                <img src="https://placehold.co/50x50" alt="Lab icon">
-                <p>Laboratory Control</p>
-            </div>
-            <div class="column animate" data-animation="fade-in">
-                <img src="https://placehold.co/50x50" alt="Composition icon">
-                <p>Great Composition</p>
-            </div>
-            <div class="column animate" data-animation="fade-in">
-                <img src="https://placehold.co/50x50" alt="Filtration icon">
-                <p>Nano Filtration</p>
+            <div class="composition-chart" data-aos="zoom-in">
+                <div class="composition-circle">
+                    <img src="/api/placeholder/200/200" alt="Water molecule">
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="100">
+                    <h4>Calcium (Ca)</h4>
+                    <p>11.5 mg/L (2.9% DV)</p>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="200">
+                    <h4>Magnesium (Mg)</h4>
+                    <p>8.5 mg/L (2.0% DV)</p>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="300">
+                    <h4>Sodium (Na)</h4>
+                    <p>6.0 mg/L (0.4% DV)</p>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="400">
+                    <h4>Potassium (K)</h4>
+                    <p>2.5 mg/L (0.1% DV)</p>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="500">
+                    <h4>Bicarbonate</h4>
+                    <p>68.3 mg/L</p>
+                </div>
+                <div class="composition-item" data-aos="fade-up" data-aos-delay="600">
+                    <h4>Sulfate</h4>
+                    <p>12.6 mg/L</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="how-we-extract parallax-section">
-        <h2 class="animate" data-animation="fade-in">HOW WE EXTRACT WATER</h2>
-        <p class="animate" data-animation="fade-in">Our Technology</p>
-        <img src="https://placehold.co/400x200" alt="Mountains" class="animate" data-animation="zoom-in">
-        <p class="animate" data-animation="fade-in">Suspensione patentem, Videlicetrum juris est ad intersum nec lacinia. Praesent diam eros, vulputate id elit dapibus, interdum maximus leo.</p>
-        <div class="cta-buttons">
-            <button class="animate" data-animation="fade-in">Read More</button>
-        </div>
-    </section>
-
-    <section class="testimonials parallax-section">
-        <h2 class="animate" data-animation="fade-in">WHAT OUR CLIENTS SAY</h2>
-        <p class="animate" data-animation="fade-in">TESTIMONIALS</p>
-        <div class="card animate" data-animation="slide-in-left">
-            <img src="https://placehold.co/100x100" alt="Silvia Stone">
-            <p>Silvia Stone<br>Barista</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-        <div class="cta-buttons">
-            <button class="animate" data-animation="fade-in">View More</button>
-        </div>
-    </section>
-
-    <section class="statistics parallax-section">
-        <div class="stats">
-            <div class="stat animate" data-animation="fade-in">2,373 BOTTLES WE DELIVERED</div>
-            <div class="stat animate" data-animation="fade-in">11 YEARS WE DELIVER</div>
-            <div class="stat purple animate" data-animation="fade-in">99% HAPPY CUSTOMERS</div>
-        </div>
-    </section>
-
-    <section class="our-blog parallax-section">
-        <h2 class="animate" data-animation="fade-in">OUR BLOG</h2>
-        <p class="animate" data-animation="fade-in">RECENT POSTS</p>
-        <div class="cards">
-            <div class="card animate" data-animation="slide-in-left">
-                <img src="https://placehold.co/200x150" alt="Whale">
-                <p>The average cost for water service to 1,000 homes, which equals to $...</p>
-                <button>Read More</button>
+    <section class="water-options section" id="products">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>CHOOSE YOUR <span>WATER</span></h2>
+                <p>Available for delivery</p>
             </div>
-            <div class="card animate" data-animation="fade-in">
-                <img src="https://placehold.co/200x150" alt="Iceberg">
-                <p>Why Ice Floats in Water? Water expands by...</p>
-                <button>Read More</button>
-            </div>
-            <div class="card animate" data-animation="slide-in-right">
-                <img src="https://placehold.co/200x150" alt="Person drinking">
-                <p>Cucumbers are 95 percent water according to...</p>
-                <button>Read More</button>
+            <div class="options-container">
+                <div class="option-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="/api/placeholder/150/200" alt="Small bottle of water">
+                    <h3>Small bottle of mineral water</h3>
+                    <p>0.5 L / 16.9 FL OZ</p>
+                    <div class="price">$12.99</div>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="option-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="/api/placeholder/150/200" alt="Big bottle of mineral water">
+                    <h3>Big bottle of mineral water</h3>
+                    <p>1.5 L / 50.7 FL OZ</p>
+                    <div class="price">$18.99</div>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+                <div class="option-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="/api/placeholder/150/200" alt="Water cooler bottle">
+                    <h3>Water cooler bottle</h3>
+                    <p>18.9 L / 5 GAL</p>
+                    <div class="price">$27.99</div>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
             </div>
         </div>
-        <div class="cta-buttons">
-            <button class="animate" data-animation="fade-in">View More</button>
+    </section>
+
+    <section class="delivery-service section" id="delivery">
+        <div class="container">
+            <div class="delivery-container">
+                <div class="delivery-image" data-aos="fade-right">
+                    <img src="/api/placeholder/500/400" alt="Delivery service">
+                </div>
+                <div class="delivery-content" data-aos="fade-left">
+                    <h2>DELIVERY <span>SERVICE</span></h2>
+                    <p>We deliver from our warehouse to your home or office every day from 8:00 AM to 8:00 PM, except Sundays. Delivery is available throughout all of the city.</p>
+                    <div class="delivery-features">
+                        <div class="feature" data-aos="fade-up" data-aos-delay="100">
+                            <div class="feature-icon">
+                                <i class="fas fa-truck"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>FREE DELIVERY</h4>
+                                <p>For orders over $50</p>
+                            </div>
+                        </div>
+                        <div class="feature" data-aos="fade-up" data-aos-delay="200">
+                            <div class="feature-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>1 HOUR WINDOW</h4>
+                                <p>Exact delivery time</p>
+                            </div>
+                        </div>
+                        <div class="feature" data-aos="fade-up" data-aos-delay="300">
+                            <div class="feature-icon">
+                                <i class="fas fa-dollar-sign"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>$10 - $20</h4>
+                                <p>Delivery fee</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="btn">Order Now</a>
+                </div>
+            </div>
         </div>
     </section>
 
-    <footer>
-        <div class="column">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Testimonials</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Products</a></li>
-                <li><a href="#">Cart</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <p>Contact Us<br>26 W 56th St, New York, NY 10019<br>Call Us: +1 234 567 890<br>[Social Media Icons]</p>
-        </div>
-        <div class="column">
-            <p>Subscribe to Newsletter</p>
-            <input type="email" placeholder="Enter your email">
-            <button>Submit</button>
-        </div>
-        <p style="width: 100%; text-align: center; margin-top: 20px;">Copyright ©2023 Wavio. All rights reserved.</p>
-    </footer>
+    <section class="our-story section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>OUR STORY</h2>
+            </div>
+            <div class="story-content" data-aos="fade-up" data-aos-delay="100">
+                <p>Our company was founded in 2010. Since then, we have been extracting, purifying, and delivering fresh mountain water from the beautiful Alps region to thousands of satisfied customers.</p>
+                <div class="story-features">
+                    <div class="story-feature" data-aos="fade-up" data-aos-delay="200">
+                        <div class="story-feature-icon">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h4>CERTIFIED LABEL</h4>
+                        <p>Quality tested water</p>
+                    </div>
+                    <div class="story-feature" data-aos="fade-up" data-aos-delay="300">
+                        <div class="story-feature-icon">
+                            <i class="fas fa-tint"></i>
+                        </div>
+<h4>PURE SPRING WATER</h4>
+<p>From natural sources</p>
+</div>
+<div class="story-feature" data-aos="fade-up" data-aos-delay="400">
+<div class="story-feature-icon">
+    <i class="fas fa-recycle"></i>
+</div>
+<h4>ECO-FRIENDLY BOTTLES</h4>
+<p>100% recyclable</p>
+</div>
+<div class="story-feature" data-aos="fade-up" data-aos-delay="500">
+<div class="story-feature-icon">
+    <i class="fas fa-heart"></i>
+</div>
+<h4>CUSTOMER SATISFACTION</h4>
+<p>99% positive reviews</p>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-    <script>
-        // Intersection Observer for scroll animations
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const animation = entry.target.dataset.animation;
-                    entry.target.classList.add(animation);
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.5 });
+<section class="extraction section" id="technology">
+<div class="container">
+<div class="extraction-container">
+<div class="extraction-content" data-aos="fade-right">
+<h2>HOW WE EXTRACT <span>WATER</span></h2>
+<p>Our Technology</p>
+<p>We use advanced filtration and purification systems to extract water from natural mountain springs. Our process preserves all beneficial minerals while removing any impurities or contaminants, ensuring you receive pure, crisp, and refreshing water every time.</p>
+<a href="#" class="btn">Learn More</a>
+</div>
+<div class="extraction-image" data-aos="fade-left">
+<img src="/api/placeholder/500/400" alt="Water extraction technology">
+</div>
+</div>
+</div>
+</section>
 
-        document.querySelectorAll('.animate').forEach(el => {
-            observer.observe(el);
-        });
+<section class="testimonials section">
+<div class="container">
+<div class="section-title" data-aos="fade-up">
+<h2>WHAT <span>OUR CLIENTS SAY</span></h2>
+<p>Testimonials</p>
+</div>
+<div class="testimonial-slider" data-aos="fade-up" data-aos-delay="100">
+<div class="testimonial-slide">
+<div class="testimonial-image">
+<img src="/api/placeholder/100/100" alt="Silvia Stone">
+</div>
+<div class="testimonial-content">
+<h4>Silvia Stone</h4>
+<p>"Excellent service and amazing water quality! I have been ordering for my office for over a year now, and the delivery is always on time. The mineral composition is perfect for everyday hydration."</p>
+<div class="rating">
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+    <i class="fas fa-star"></i>
+</div>
+</div>
+</div>
+</div>
+<div class="slider-controls">
+<div class="control-btn prev"><i class="fas fa-chevron-left"></i></div>
+<div class="control-btn next"><i class="fas fa-chevron-right"></i></div>
+</div>
 
-        // Hamburger menu toggle
-        const hamburger = document.querySelector('.hamburger');
-        const navLinks = document.querySelector('.nav-links');
+<div class="stats" data-aos="fade-up">
+<div class="stat" data-aos="fade-up" data-aos-delay="100">
+<div class="stat-number">2,375</div>
+<div class="stat-text">CLIENTS</div>
+</div>
+<div class="stat" data-aos="fade-up" data-aos-delay="200">
+<div class="stat-number">11</div>
+<div class="stat-text">YEARS ON MARKET</div>
+</div>
+<div class="stat" data-aos="fade-up" data-aos-delay="300">
+<div class="stat-number">99%</div>
+<div class="stat-text">SATISFACTION RATE</div>
+</div>
+</div>
+</div>
+</section>
 
-        hamburger.addEventListener('click', () => {
-            navLinks.classList.toggle('show');
-        });
-    </script>
+<section class="blog section" id="blog">
+<div class="container">
+<div class="section-title" data-aos="fade-up">
+<h2>OUR <span>BLOG</span></h2>
+<p>Latest posts</p>
+</div>
+<div class="blog-container">
+<div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+<div class="blog-image">
+<img src="/api/placeholder/400/200" alt="Blog post 1">
+<div class="blog-number">1</div>
+</div>
+<div class="blog-content">
+<h3>The importance of clean water</h3>
+<p>Water is essential for every cell in your body. It helps regulate temperature, lubricates joints, and transports nutrients throughout your body...</p>
+<div class="blog-footer">
+    <div class="blog-date">April 15, 2025</div>
+    <a href="#" class="blog-more">Read More</a>
+</div>
+</div>
+</div>
+<div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+<div class="blog-image">
+<img src="/api/placeholder/400/200" alt="Blog post 2">
+<div class="blog-number">2</div>
+</div>
+<div class="blog-content">
+<h3>Purifying water at home</h3>
+<p>While our delivery service brings pure water to your doorstep, there are times when you might need to purify water yourself. Here are some effective methods...</p>
+<div class="blog-footer">
+    <div class="blog-date">April 10, 2025</div>
+    <a href="#" class="blog-more">Read More</a>
+</div>
+</div>
+</div>
+<div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+<div class="blog-image">
+<img src="/api/placeholder/400/200" alt="Blog post 3">
+<div class="blog-number">3</div>
+</div>
+<div class="blog-content">
+<h3>Minerals and their benefits</h3>
+<p>Natural mineral water contains essential minerals that contribute to overall health. From calcium to magnesium, these minerals play crucial roles...</p>
+<div class="blog-footer">
+    <div class="blog-date">April 5, 2025</div>
+    <a href="#" class="blog-more">Read More</a>
+</div>
+</div>
+</div>
+</div>
+<div class="text-center" style="text-align: center; margin-top: 40px;">
+<a href="#" class="btn" data-aos="fade-up">View All Posts</a>
+</div>
+</div>
+</section>
+
+<footer class="footer" id="contact">
+<svg class="footer-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+<path fill="#0a1931" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,154.7C384,149,480,107,576,96C672,85,768,107,864,112C960,117,1056,107,1152,101.3C1248,96,1344,96,1392,96L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+</svg>
+<div class="container">
+<div class="footer-container">
+<div class="footer-col">
+<h3>Links</h3>
+<ul class="footer-links">
+<li><a href="#">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#products">Products</a></li>
+<li><a href="#delivery">Delivery</a></li>
+<li><a href="#technology">Technology</a></li>
+<li><a href="#blog">Blog</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h3>Contact Us</h3>
+<div class="footer-contact">
+<p><i class="fas fa-map-marker-alt"></i> 123 Water Street, Mountain Springs, CA 91234</p>
+<p><i class="fas fa-phone"></i> +1 (800) 123-4567</p>
+<p><i class="fas fa-envelope"></i> info@wavez.com</p>
+</div>
+<div class="footer-social">
+<a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+<a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+</div>
+</div>
+<div class="footer-col">
+<h3>Subscribe to Newsletter</h3>
+<p>Stay updated with our latest offers and news.</p>
+<div class="footer-subscribe">
+<form>
+    <input type="email" placeholder="Your Email">
+    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+</form>
+</div>
+</div>
+</div>
+<div class="footer-bottom">
+<p>&copy; 2025 Wavez. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+
+<!-- AOS JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<!-- Font Awesome -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+<script>
+// Initialize AOS
+document.addEventListener('DOMContentLoaded', function() {
+AOS.init({
+duration: 800,
+easing: 'ease-in-out',
+once: true,
+offset: 100
+});
+
+// Testimonial Slider
+const slides = document.querySelectorAll('.testimonial-slide');
+const prevBtn = document.querySelector('.control-btn.prev');
+const nextBtn = document.querySelector('.control-btn.next');
+let currentSlide = 0;
+
+// Create more testimonials for the slider
+const testimonials = [
+{
+name: "Silvia Stone",
+text: "Excellent service and amazing water quality! I have been ordering for my office for over a year now, and the delivery is always on time. The mineral composition is perfect for everyday hydration.",
+rating: 5
+},
+{
+name: "Michael Johnson",
+text: "The water tastes incredibly fresh and clean. I've tried many delivery services, but Wavez stands out for their consistency and quality. Highly recommended!",
+rating: 5
+},
+{
+name: "Lisa Parker",
+text: "We've been using Wavez for our home water delivery for 6 months now, and we couldn't be happier. The scheduling is flexible, and the staff is always friendly and professional.",
+rating: 4
+}
+];
+
+// Manual scroll reveal for elements outside the viewport
+const scrollElements = document.querySelectorAll('.fade-up, .fade-in, .slide-right, .slide-left');
+
+const elementInView = (el, percentageScroll = 100) => {
+const elementTop = el.getBoundingClientRect().top;
+return (
+elementTop <= 
+((window.innerHeight || document.documentElement.clientHeight) * (percentageScroll/100))
+);
+};
+
+const displayScrollElement = (element) => {
+element.classList.add('show');
+};
+
+const hideScrollElement = (element) => {
+element.classList.remove('show');
+};
+
+const handleScrollAnimation = () => {
+scrollElements.forEach((el) => {
+if (elementInView(el, 100)) {
+displayScrollElement(el);
+} else {
+hideScrollElement(el);
+}
+});
+};
+
+window.addEventListener('scroll', () => {
+handleScrollAnimation();
+});
+
+// Initialize scroll animation
+handleScrollAnimation();
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function(e) {
+e.preventDefault();
+
+const targetId = this.getAttribute('href');
+if (targetId === '#') return;
+
+const targetElement = document.querySelector(targetId);
+if (targetElement) {
+window.scrollTo({
+    top: targetElement.offsetTop - 80,
+    behavior: 'smooth'
+});
+}
+});
+});
+
+// Testimonial slider functionality
+function updateSlider() {
+const testimonialSlider = document.querySelector('.testimonial-slider');
+const testimonialContent = testimonials[currentSlide];
+
+const slide = document.createElement('div');
+slide.className = 'testimonial-slide';
+slide.innerHTML = `
+<div class="testimonial-image">
+<img src="/api/placeholder/100/100" alt="${testimonialContent.name}">
+</div>
+<div class="testimonial-content">
+<h4>${testimonialContent.name}</h4>
+<p>"${testimonialContent.text}"</p>
+<div class="rating">
+    ${Array(testimonialContent.rating).fill('<i class="fas fa-star"></i>').join('')}
+    ${Array(5 - testimonialContent.rating).fill('<i class="far fa-star"></i>').join('')}
+</div>
+</div>
+`;
+
+// Animate slide change
+testimonialSlider.innerHTML = '';
+slide.style.opacity = '0';
+testimonialSlider.appendChild(slide);
+
+setTimeout(() => {
+slide.style.opacity = '1';
+slide.style.transition = 'opacity 0.5s ease';
+}, 50);
+}
+
+// Next button click
+nextBtn.addEventListener('click', () => {
+currentSlide = (currentSlide + 1) % testimonials.length;
+updateSlider();
+});
+
+// Previous button click
+prevBtn.addEventListener('click', () => {
+currentSlide = (currentSlide - 1 + testimonials.length) % testimonials.length;
+updateSlider();
+});
+
+// Auto slide change
+setInterval(() => {
+currentSlide = (currentSlide + 1) % testimonials.length;
+updateSlider();
+}, 5000);
+
+// Initialize slider
+updateSlider();
+
+// Add scroll animations for elements
+const animationElements = document.querySelectorAll('[data-aos]');
+animationElements.forEach(el => {
+el.classList.add('fade-up');
+});
+});
+
+// Fixed header on scroll
+window.addEventListener('scroll', function() {
+const header = document.querySelector('header');
+if (window.scrollY > 50) {
+header.style.boxShadow = '0 2px 10px rgba(0, 0, 0, 0.1)';
+header.style.padding = '10px 0';
+} else {
+header.style.boxShadow = 'none';
+header.style.padding = '15px 0';
+}
+});
+
+// Water ripple effect for hero section
+document.addEventListener('DOMContentLoaded', function() {
+const hero = document.querySelector('.hero');
+
+hero.addEventListener('mousemove', function(e) {
+const ripple = document.createElement('div');
+ripple.className = 'ripple';
+ripple.style.left = `${e.clientX}px`;
+ripple.style.top = `${e.clientY}px`;
+
+this.appendChild(ripple);
+
+setTimeout(() => {
+ripple.remove();
+}, 1500);
+});
+});
+</script>
 </body>
 </html>
